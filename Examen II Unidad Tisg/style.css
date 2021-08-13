@@ -1,0 +1,108 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+html {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    min-width: 100px;
+    background-color: #ff0000;
+}
+ 
+header img {
+    width: 20rem;
+    align-self: center;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: rgb(154, 229, 235);
+}
+ 
+.Marvel-container {
+    display: flex;
+    width: 100%;
+    min-width: 250px;
+    height: 50vh;
+    background-image: url('/img/Araña.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+ 
+.Marvel-card {
+    padding-bottom: 1rem;
+    width: 90%;
+    min-width: 320px;
+    max-width: 400px;
+    height: auto;
+    margin: 25px auto;
+    padding: 15px;
+    background-color: #e92a08be;
+    border-radius: 5px;
+}
+.Marvel-card img {
+    width: 100%;
+    height: 200px;
+    box-shadow: 5px 4px 8px rgb(0,0,0,0,9);
+    border-radius: 5px;
+}
+ 
+.footer-img-background {
+    width: 100%;
+    height: 750px;
+    background-image: url("/img/Marvel.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ 
+footer {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(219, 97, 97);
+}
+ 
+footer section {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.footer-left {
+    display: flex;
+}
+ 
+.footer-left ul {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+    list-style: none;
+}
+ 
+.footer-left ul li {
+    margin: 5px 10px;
+}
+ 
+.footer-right img {
+    width: 60%;
+}
+
+.container-cards{
+    display: flow-root;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+}
